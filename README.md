@@ -11,7 +11,7 @@ This project is divided two parts associated with the data preparation and the b
 - [Data Preparation](https://nbviewer.jupyter.org/github/anmarphy/Patient-hospital-readmission-US/blob/main/Diabetes_130_Part_1.ipynb)
 The final dataset contains 56.195 records and 56 attributes, having the readmission status as the outcome. This dataset consists of hospital admissions that did not result in a patient death or discharge to a hospice. Each encounter corresponds to a unique patient diagnosed with diabetes, although the primary diagnosis may be different.
 
-- [Binary classification models]() 
+- [Binary classification models](https://nbviewer.jupyter.org/github/anmarphy/Patient-hospital-readmission-US/blob/main/Diabetes_130_Part_2.ipynb) 
 The best two models found are: Random Forest and Logistic Regression through a oversampling approach to balance the dataset.
 
 ### Conclusions
