@@ -9,10 +9,10 @@ The dataset is available in the UCI repository as [Diabetes 130-US hospitals for
 
 This project is divided in two parts associated with the data preparation and the classification models. 
 - *Data Preparation*:
-The final dataset contains 56.195 records and 56 attributes, having the readmission status as the outcome. This dataset consists of hospital admissions that did not result in a patient death or discharge to a hospice. Each encounter corresponds to a unique patient diagnosed with diabetes, although the primary diagnosis may be different.
+Since the original database contains incomplete, redundant, and noisy information it was necessary implement a data wrangling process. The final dataset contains 56.195 records and 56 attributes, having the readmission status in the first 30 days as the binary outcome. This dataset consists of hospital admissions that did not result in a patient death or discharge to a hospice. Each encounter corresponds to a unique patient diagnosed with diabetes, although the primary diagnosis may be different.
 
 - *Classification models*:
-The best two models found are: Random Forest and Logistic Regression through a oversampling approach to balance the dataset.
+The best two models found are: Random Forest and Logistic Regression through an oversampling approach to balance the dataset.
 
 ### Conclusions
 * Using oversampling to balance the classes guarantee a better performance since most of the machine learning algorithms needs a similar proportion into the classes.
