@@ -15,7 +15,9 @@ The final dataset contains 56.195 records and 56 attributes, having the readmiss
 The best two models found are: Random Forest and Logistic Regression through a oversampling approach to balance the dataset.
 
 ### Conclusions
--  After checking with various machine learning models for classify the patients minimizing the error of readmission, my suggestion is to use the Random forest model since it has the best performance. And for identifying risk and protective factors my suggestion is the logistic model since it is the second best model and it is interpretable.
-- The top three of protective factors are: not being in Emergency as admission type, have any change in the diabetics medications and  have any diabetic medication.
-- When the patient has been more in contact with the hospital: more days in the hospital, more procedures or more outpatient visits, the odds of being readmitted decrease.
-- The top three of risk factors are: number of inpatient visits, the discharge is not at home,  number of diagnoses reported into the system.
+* Using oversampling to balance the classes guarantee a better performance since most of the machine learning algorithms needs a similar proportion into the classes.
+* After checking with various machine learning models, for classify the patients minimizing the error of readmission, my suggestion is to use the *Random forest* model since it has the best performance.
+* For identifying risk and protective risk my suggestion is the *Logistic Regression* model since it is the second best model and it is interpretable.
+    * The top three of protective factors are: not being in Emergency as admission type, have any change in the diabetics medications and  have any diabetic medication.
+    * When the patient has been more in contact with the hospital: more days in the hospital, more procedures or more outpatient visits, the odds of being readmitted decrease.
+    * The top three of risk factors are: number of inpatient visits, the discharge is not at home,  number of diagnoses reported into the system.
