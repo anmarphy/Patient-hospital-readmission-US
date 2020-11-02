@@ -8,10 +8,10 @@ The dataset is available in the UCI repository as [Diabetes 130-US hospitals for
 - Contains 101,766 observations and 50 features, including demographic attributes, diagnostics, medications and hospital outcome.
 
 This project is divided two parts associated with the data preparation and the binary classification.To have a better visualization of the scripts, I suggest to check them in nbviewer:
-- [Data Preparation](https://nbviewer.jupyter.org/github/anmarphy/Patient-hospital-readmission-US/blob/main/Diabetes_130_Part_1.ipynb)
+- [Data Preparation]()
 The final dataset contains 56.195 records and 56 attributes, having the readmission status as the outcome. This dataset consists of hospital admissions that did not result in a patient death or discharge to a hospice. Each encounter corresponds to a unique patient diagnosed with diabetes, although the primary diagnosis may be different.
 
-- [Binary classification models](https://nbviewer.jupyter.org/github/anmarphy/Patient-hospital-readmission-US/blob/main/Diabetes_130_Part_2.ipynb) 
+- [Binary classification models]() 
 The best two models found are: Random Forest and Logistic Regression through a oversampling approach to balance the dataset.
 
 ### Conclusions
