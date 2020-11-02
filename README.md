@@ -15,6 +15,7 @@ Since the original database contains incomplete, redundant, and noisy informatio
 The best two models found are: Random Forest and Logistic Regression through an oversampling approach to balance the dataset.
 
 ### Conclusions
+
 * Using oversampling to balance the classes guarantee a better performance since most of the machine learning algorithms needs a similar proportion into the classes.
 * After checking with various machine learning models, for classify the patients minimizing the error of readmission, my suggestion is to use the *Random forest* model since it has the best performance.
 * For identifying risk and protective factors my suggestion is the *Logistic Regression* model since it is the second best model and it is interpretable.
